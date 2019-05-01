@@ -41,4 +41,7 @@ class TestloginU15678(unittest.TestCase):
         #Verify the LoginPage
         self.login.wait_for_login_page_to_load()
 
+    def test_valid_login_TC156826(self):
+        self.driver.get_screenshot_as_file('Sampleimage.jpg')
+
 
